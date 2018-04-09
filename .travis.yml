@@ -5,4 +5,4 @@ warnings_are_errors: false
 install:
   - R -e 'install.packages("testthat")'
 script:
-  - R -e 't_table_test.R'
+  - R t_table_test.R
