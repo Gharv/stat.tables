@@ -2,3 +2,4 @@
 
 export(t_table)
 export(z_table)
+importFrom("stats", "pnorm", "qt")
