@@ -2,7 +2,6 @@ language: r
 sudo: false
 cache: packages
 warnings_are_errors: false
-install:
-  - R -e 'install.packages("testthat")'
-script:
+r_packages: "testthat"
+after_success:
   - R t_table_test.R
