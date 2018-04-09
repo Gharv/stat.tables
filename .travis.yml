@@ -3,5 +3,3 @@ sudo: false
 cache: packages
 warnings_are_errors: false
 r_packages: "testthat"
-after_success:
-  - R t_table_test.R
