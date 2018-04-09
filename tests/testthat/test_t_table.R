@@ -1,5 +1,4 @@
-source("t_table.R")
-library(testthat)
+context("t value")
 
 test_that("t value ", {
   
